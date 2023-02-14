@@ -1,0 +1,467 @@
+/************GOOGLE FONTS*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@200;400;800&display=swap');
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #A89C9C;
+    color: #CCCCCC;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/****LAYOUT******/
+#container {
+    width: 80%;
+    margin: 0 auto;
+    /*    outline: 1px solid #F0F;*/
+    background-color: #937777;
+    height: auto;
+
+}
+
+.row {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.col13 {flex-basis: 33.3333%;}
+.col23 {flex-basis: 66.6666%;}
+.col14 {  flex-basis: 25%;}
+.col12 {flex-basis: 50%;}
+.col15 {flex-basis: 20%;}
+
+.space {
+    padding: 10px;
+}
+
+/*PROPERTIES AS CLASSES-REUSABLE*/
+.space-between {
+    justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.gap5 {
+    gap: 5px;
+}
+
+.fr {
+    float: right;
+}
+
+#mainHeader {
+    height: 450px;
+}
+
+#mainHeader h1 {
+    font-size: 5rem;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #333;
+    background: #fff;
+    font-weight: 700;
+    margin-bottom: -50px;
+    /*	box-shadow: 0 3px 20px 0 #0000003b;*/
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.hero {
+    background-color: #444;
+    background-image: url(../images/front.jpeg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 800px;
+    padding: 1em;
+    color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+
+
+
+.col {
+    flex-basis: 30%;
+}
+
+
+/*NAV*/
+
+.navbar {
+  width: 100%;
+  background-color: #937777;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #4E3737;
+}
+
+#section1 h1 {
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+#section1 p,
+#content p,
+#help p {
+    text-align: center;
+}
+.products img {
+    opacity: 0.7;
+}
+
+.products img:hover {
+    opacity: 1;
+
+
+}
+/*CATEGORY SECTION*/
+
+.style {
+    text-align: center;
+
+}
+
+
+#category a {
+    margin: 50px;
+    color: #CCCCCC;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#category a:hover {
+    color: #4E3737;
+    font-weight: 700;
+}
+
+
+#category {
+    padding-bottom: 20px;
+}
+
+
+/*SECTION2*/
+.price {
+    text-align: center;
+
+}
+
+
+#section2 a:link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.2em;
+    background-color: #4E3737;
+    padding: 5px;
+}
+
+
+#section2 a:visited {
+    color: #FFF;
+}
+
+#section2 a:hover {
+    background-color: #FFF;
+    color: #000;
+    outline: 1px solid #4E3737;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin: 1em 1em;
+    text-align: center;
+    color: #4E3737;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+.second {
+    font-size: 4em;
+    text-align: center;
+    color: #CCCCCC;
+    text-shadow: 2px 2px 2px #000;;
+}
+
+#section2 p {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+p {
+    line-height: 150%;
+    font-size: 1em;
+}
+
+#mainFooter h3 {
+    color: #CCCCCC;
+}
+
+#mainFooter ul {
+    font-size: 1.2em;
+}
+
+#mainFooter ul {
+    cursor: pointer;
+}
+
+/*HELP SECTION*/
+#section2 h1 {
+    font-size: 1.8em;
+    margin: 1em 1em;
+    text-align: center;
+    color: #4E3737;
+    /*    text-shadow: 2px 2px 2px #000000;*/
+
+}
+
+h3 {
+    font-size: 1.6em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #4E3737;
+}
+
+
+
+/*HELP SECTION*/
+#help {
+    height: 100%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+#help p {
+    line-height: 150%;
+    font-size: 100%;
+}
+
+
+
+
+/* Footer */
+
+#mainFooter {
+
+    color: #CCCCCC;
+    list-style: none;
+    line-height: 40px;
+    height: 350px;
+    background-color: #676060;
+    text-align: center;
+}
+
+
+
+/**SOCIAL**/
+#social {
+    background-color: #4E3737;
+    margin-bottom: -7px;
+}
+
+#social a {
+    filter: sepia(1);
+}
+
+#social a:hover {
+    filter: sepia(0);
+}
+
+#Footer2 {
+
+    height: 50px;
+    padding-top: 20px;
+     padding-bottom: 20px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    /*    outline: 1px solid #000;*/
+    background-color: #937777;
+}
+
+
+.bg-img {
+    background-color: #444;
+    background-image: url(../images/background.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 1em;
+}
+
+
+
+/*REUSABLE CLASSES*/
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.shadowed {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+}
+
+.centered {
+    text-align: center;
+}
+
+/****************MOBILE*/
+@media screen and (max-width:480px) {
+
+/*    ***LAYOUT******/
+    #container {
+        width: 100%;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .hero h1 {
+        font-size: 1em;
+    }
+
+
+    #mainHeader {
+        align-items: center;
+    }
+
+    #mainHeader h1 {
+        font-size: 3.5em;
+    }
+    
+   #footer {height: 140px;} 
+ 
+    #section1 .row {
+        flex-direction: column;
+    }
+    
+     #category .row {
+        flex-direction: column;
+    }
+    
+    #section2 .row {
+        flex-direction: column;
+    }
+    
+    #mainFooter h3 {
+        font-size: 125%;
+        margin: 10px 0;
+    }
+   
+    #section2 a {
+        float: none;
+        display: block;
+        width: 50%;
+        margin: 10px;
+        margin-left: 90px;
+    }
+    
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #category img {
+        
+        margin: 20px 0;
+    }
+    #category a {
+        font-size: 2em;
+    }
+    
+    #section1 h3 {
+              font-size: 2em;
+    } 
+    
+    #section1 p {
+        font-size: 1.5em;
+    }
+    
+    #section2 h3 {
+        font-style: italic;
+        font-size: 2em;
+    }
+    
+    
+}
